@@ -1,19 +1,8 @@
-# not-to-have-class-issue
-
 ## Project setup
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
+npm run test
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Check the problematic behaviour in `src/components/__tests__/Tag.spec.js`
